@@ -153,6 +153,22 @@ actor_11 = Actor.new
 actor_11["name"] = "Tom Hardy"
 actor_11.save
 
+m_1 = Movie.find_by({"title" => "Batman Begins"})
+m_2 = Movie.find_by({"title" => "The Dark Knight"})
+m_3 = Movie.find_by({"title" => "The Dark Knight Rises"})
+
+a_1 = Actor.find_by({"name" => "Christian Bale"})
+a_2 = Actor.find_by({"name" => "Michael Caine"})
+a_3 = Actor.find_by({"name" => "Liam Neeson"})
+a_4 = Actor.find_by({"name" => "Katie Holmes"})
+a_5 = Actor.find_by({"name" => "Gary Oldman"})
+a_6 = Actor.find_by({"name" => "Heath Ledger"})
+a_7 = Actor.find_by({"name" => "Aaron Eckhart"})
+a_8 = Actor.find_by({"name" => "Maggie Gyllenhaal"})
+a_9 = Actor.find_by({"name" => "Anne Hathaway"})
+a_10 = Actor.find_by({"name" => "Joseph Gordon-Levitt"})
+a_11 = Actor.find_by({"name" => "Tom Hardy"})
+
 # Prints a header for the movies output
 puts "Movies"
 puts "======"
